@@ -33,6 +33,7 @@ if (st.button('Show')):
     # st.header(df['AtomicNumber'].values)
     for i in df[df['Element'] == atom_name].iloc[:, -1]:
            print(i)
+            
     image = Image.open(i)
     st.image(image)
 st.image('amino.png')
