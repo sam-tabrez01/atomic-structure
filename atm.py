@@ -36,9 +36,9 @@ if (st.button('Show')):
             
     image = Image.open(i)
     st.image(image)
-# st.image('amino.png')
-# st.image('shielding.png')
-# st.image('nuclear.png')
+st.image('amino.png')
+st.image('shielding.png')
+st.image('nuclear.png')
 
 
 
