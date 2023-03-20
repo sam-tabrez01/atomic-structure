@@ -16,7 +16,7 @@ st.image('good.png')
 
 st.write('alpha tabrez')
 st.header("python for elements")
-df = pd.read_csv('../Periodic Table of Elements.csv')
+df = pd.read_csv('Periodic Table of Elements.csv')
 st.dataframe(df)
 atom_name = st.selectbox("Select Name of element : ", (df.iloc[:,1]))
 #atom_name = st.selectbox("which property of elementes you want",('Phase','atomic radius','boiling point','melting point','density',(df.iloc[:,1])))
